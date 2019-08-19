@@ -4,4 +4,14 @@ version = "0.1.0"
 authors = ["zifeng <zifeng.1024@gmail.com>"]
 edition = "2018"
 
+[[bin]]
+name = "stack"
+path = "src/stack/main.rs"
+
+[[bin]]
+name = "list"
+path = "src/list/main.rs"
+
 [dependencies]
+
+
