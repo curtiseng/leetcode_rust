@@ -3,6 +3,10 @@ fn ownership(s: String) -> String {
     s
 }
 
+/**
+ * 所有权、引用、可变引用
+ */
+
 fn main() {
     let s = String::from("1111");
     let s = ownership(s);
